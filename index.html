@@ -9,6 +9,16 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
 </head>
 <body>
 <div class="loader" id="loader">
@@ -22,11 +32,11 @@
 <div class="cursor" id="cursor"><span id="cursorLabel"></span></div>
 
 <header>
-  <a href="#" class="logo">GIU BAPTISTA®</a>
+  <a href="#" class="logo"><img src="./assets/logo.png" class="logo" /></a>
   <nav class="nav">
     <a href="#work">Trabalhos</a>
-    <a href="#capabilities">O que faço</a>
     <a href="#about">Sobre</a>
+    <a href="#capabilities">O que faço</a>
     <a href="#contact">Contato</a>
   </nav>
 </header>
@@ -51,88 +61,121 @@
   </div>
 </section>
 
-<div class="marquee"><div class="marquee-track">
-  <span>MKT.DIGITAL</span><span><img src="./assets/marketing.png"></span>
-  <span>GROWTH</span><img src="./assets/analise-de-mercado.png">
-  <span>BRANDING</span><b>*</b>
-  <span>PERFORMANCE</span><b>*</b>
-  <span>AI AUTOMATION</span><img src="./assets/chatbot.png">
-  <span>DESIGNER</span><b>*</b>
-  <span>BRANDING</span><b>*</b>
-</div></div>
+<div class="marquee">
+  <div class="marquee-track">
+    <span>MKT.DIGITAL</span><span><b><i class="ph ph-megaphone"></i></b></span>
+    <span>GROWTH</span><span><b><i class="ph ph-rocket "></i></b></span>
+    <span>PERFORMANCE</span><span><b><i class="ph ph-chart-line-up"></i></b></span>
+    <span>BRANDING</span><span><b><i class="ph ph-lightbulb"></i></b></span>
+    <span>AI AUTOMATION</span><span><b><i class="ph ph-robot"></i></b></span>
+    <span>DESIGNER</span><span><b><i class="ph ph-palette"></i></b></span>
+    
+  </div>
+</div>
 
-<section class="manifesto">
-  <div class="kicker mono">/ 001 — MANIFESTO</div>
-  <h2 class="reveal">Eu nunca gostei muito de escolher <span class="dim">uma coisa só.</span></h2>
-  <p class="reveal">Design me ensinou a olhar. Marketing me ensinou a pensar. O audiovisual me ensinou a contar. A tecnologia me ensinou a construir.<br><br><strong>Hoje eu uso tudo isso para transformar ideias em experiências.</strong></p>
+<section class="about"  id="about">
+  <div>
+    <div class="kicker mono">/ 003 — QUEM É GIU?</div>
+    <div class="about-container">
+      
+      <div class="about-content">
+        <p>Sou <strong>Giu Baptista</strong>, um profissional criativo multidisciplinar.</p>
+        <p>Gosto de entender como as coisas funcionam, desmontá-las e encontrar novas formas de construí-las.</p>
+        <p>Entre design, estratégia, audiovisual e tecnologia, meu trabalho acontece onde essas áreas se encontram.</p>
+        <div class="mono" style="color:#666;margin-top:50px">CURRENTLY / DESIGNING — FILMING — BUILDING — LEARNING</div>
+      </div>
+      <div class="about-image-wrapper">
+        <div class="about-image-frame">
+          <div class="about-frame-label mono">GIU / 001</div>
+          <div class="about-frame-meta mono"><span>CREATIVE MULTIDISCIPLINAR</span><span>SCN 001</span></div>
+          <div class="glass-container">
+            <img src="./assets/photo-about.jpeg" alt="Foto do Giuliano Baptista" class="about-image" />
+          </div>
+          <span class="about-tag tag-design mono">DESIGN</span>
+          <span class="about-tag tag-film mono">FILM</span>
+          <span class="about-tag tag-tech mono">AI / TECH</span>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="capabilities" id="capabilities">
-  <div class="section-head mono"><span>/ 002 — O QUE EU FAÇO</span><span>07 — 01</span></div>
+  <div class="section-head mono"><span>/ 004 — O QUE EU FAÇO</span><span>07 — 01</span></div>
   <div class="cap-list">
-    <div class="cap reveal" data-cursor=""><span class="cap-no mono">01</span><h3>DESIGN</h3><p>Identidades, direção visual, peças, campanhas e sistemas gráficos.</p></div>
-    <div class="cap reveal" data-cursor="VER MAIS"><span class="cap-no mono">02</span><h3>BRANDING</h3><p>Construção de marcas com conceito, posicionamento e personalidade.</p></div>
-    <div class="cap reveal" data-cursor="VER MAIS"><span class="cap-no mono">03</span><h3>MARKETING</h3><p>Estratégia e comunicação pensadas para gerar atenção e movimento.</p></div>
-    <div class="cap reveal" data-cursor="VER MAIS"><span class="cap-no mono">04</span><h3>MOTION</h3><p>Movimento, animação e linguagem visual para fazer ideias ganharem vida.</p></div>
-    <div class="cap reveal" data-cursor="VER MAIS"><span class="cap-no mono">05</span><h3>FILM</h3><p>Direção e produção audiovisual para contar histórias em movimento.</p></div>
-    <div class="cap reveal" data-cursor="VER MAIS"><span class="cap-no mono">06</span><h3>WEB</h3><p>Experiências digitais que unem design, interação e tecnologia.</p></div>
-    <div class="cap reveal" data-cursor="VER MAIS"><span class="cap-no mono">07</span><h3>AI / TECH</h3><p>Inteligência artificial, automações e ferramentas para criar novas possibilidades.</p></div>
+    <div class="cap"><span class="">01</span><h3>DESIGN</h3><p>Identidades, direção visual, peças, campanhas e sistemas gráficos.</p></div>
+    <div class="cap"><span class="cap-no">02</span><h3>BRANDING</h3><p>Construção de marcas com conceito, posicionamento e personalidade.</p></div>
+    <div class="cap"><span class="cap-no mono">03</span><h3>MARKETING</h3><p>Estratégia e comunicação pensadas para gerar atenção e movimento.</p></div>
+    <div class="cap"><span class="cap-no mono">04</span><h3>MOTION</h3><p>Movimento, animação e linguagem visual para fazer ideias ganharem vida.</p></div>
+    <div class="cap"><span class="cap-no mono">05</span><h3>FILM</h3><p>Direção e produção audiovisual para contar histórias em movimento.</p></div>
+    <div class="cap"><span class="cap-no mono">06</span><h3>WEB</h3><p>Experiências digitais que unem design, interação e tecnologia.</p></div>
+    <div class="cap"><span class="cap-no mono">07</span><h3>AI / TECH</h3><p>Inteligência artificial, automações e ferramentas para criar novas possibilidades.</p></div>
   </div>
 </section>
 
 <section class="work" id="work">
   <div class="work-head">
-    <div><div class="kicker mono">/ 003 — TRABALHOS SELECIONADOS</div><h2>SELECTED<br>WORK.</h2></div>
-    <span class="mono" style="color:#666">PORTFÓLIO / 2026</span>
+    <div><div class="kicker mono">/ 001 — TRABALHOS SELECIONADOS</div><h2>SELECTED<br>WORK.</h2></div>
+    <div class="work-meta">
+      <span class="mono">PORTFÓLIO / 2026</span>
+      <div class="carousel-controls" aria-label="Controles do carrossel">
+        <span class="carousel-status mono" aria-live="polite">01 / 04</span>
+        <button class="carousel-button" type="button" data-carousel="prev" aria-label="Trabalho anterior">
+          <i class="ph ph-arrow-left" aria-hidden="true"></i>
+        </button>
+        <button class="carousel-button" type="button" data-carousel="next" aria-label="Próximo trabalho">
+          <i class="ph ph-arrow-right" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
   </div>
-  <div class="projects">
+  <div class="projects" aria-label="Trabalhos selecionados" tabindex="0">
     <a class="project" href="#" data-cursor="VIEW">
-      <div class="project-media"></div><div class="project-info"><div><span>01 / BRANDING</span><h3>Projeto 001</h3></div><span>↗</span></div>
+      <div class="project-media"></div><div class="project-info"><div><span>01 / BRANDING</span><h3>Projeto 001</h3></div><span class="project-arrow">↗</span></div>
     </a>
     <a class="project" href="#" data-cursor="VIEW">
-      <div class="project-media"></div><div class="project-info"><div><span>02 / DESIGN</span><h3>Projeto 002</h3></div><span>↗</span></div>
+      <div class="project-media"></div><div class="project-info"><div><span>02 / DESIGN</span><h3>Projeto 002</h3></div><span class="project-arrow">↗</span></div>
     </a>
     <a class="project" href="#" data-cursor="VIEW">
-      <div class="project-media"></div><div class="project-info"><div><span>03 / FILM</span><h3>Projeto 003</h3></div><span>↗</span></div>
+      <div class="project-media"></div><div class="project-info"><div><span>03 / FILM</span><h3>Projeto 003</h3></div><span class="project-arrow">↗</span></div>
     </a>
     <a class="project" href="#" data-cursor="VIEW">
-      <div class="project-media"></div><div class="project-info"><div><span>04 / DIGITAL</span><h3>Projeto 004</h3></div><span>↗</span></div>
+      <div class="project-media"></div><div class="project-info"><div><span>04 / DIGITAL</span><h3>Projeto 004</h3></div><span class="project-arrow">↗</span></div>
     </a>
   </div>
 </section>
 
 <section class="film">
+  <img
+    class="film-poster"
+    src="https://i.ytimg.com/vi/Rm6FUpniN9w/maxresdefault.jpg"
+    alt="Prévia do vídeo de demonstração de Giuliano Baptista"
+  />
   <div class="film-bg" id="filmBg"></div>
   <div class="film-content">
+    <div class="kicker mono">/ 002 — MOVING IMAGES</div>
     <div class="frame">REC ● &nbsp; 24 FPS &nbsp; FRAME 001</div>
     <h2><span>MOVING</span><br>IMAGES.</h2>
-    <a class="play" href="#contact" data-cursor="PLAY">PLAY</a>
+    <a class="play" href="https://youtu.be/Rm6FUpniN9w" target="_blank" rel="noopener" data-cursor="PLAY">PLAY</a>
   </div>
 </section>
 
 <section class="brain">
-  <div class="kicker mono">/ 004 — A MENTE</div>
+  <div class="kicker mono">/ 005 — A MENTE</div>
   <h2 class="brain-title reveal">UMA MENTE.<br><span>MUITAS DIREÇÕES.</span></h2>
   <div class="brain-map">
-    <svg class="lines" viewBox="0 0 1000 560" preserveAspectRatio="none">
-      <line x1="500" y1="280" x2="130" y2="85"/><line x1="500" y1="280" x2="870" y2="105"/>
-      <line x1="500" y1="280" x2="100" y2="475"/><line x1="500" y1="280" x2="900" y2="480"/>
-      <circle cx="500" cy="280" r="4"/>
-    </svg>
+    <div class="orbit orbit-one" aria-hidden="true"></div>
+    <div class="orbit orbit-two" aria-hidden="true"></div>
+    <div class="orbit orbit-three" aria-hidden="true"></div>
     <div class="node main">GIU BAPTISTA</div>
-    <div class="node n1">DESIGN</div><div class="node n2">FILM</div><div class="node n3">MARKETING</div><div class="node n4">TECH</div>
+    <div class="node-track track-one"><div class="node n1">DESIGN</div></div>
+    <div class="node-track track-two"><div class="node n2">FILM</div></div>
+    <div class="node-track track-three"><div class="node n3">MARKETING</div></div>
+    <div class="node-track track-four"><div class="node n4">TECH</div></div>
   </div>
 </section>
 
-<section class="about" id="about">
-  <div><div class="kicker mono">/ 005 — QUEM É GIU?</div><h2 class="reveal">NÃO CABE<br>EM UMA<br>CAIXA.</h2></div>
-  <div class="about-copy reveal">
-    <p>Sou <strong>Giu Baptista</strong>, um profissional criativo multidisciplinar.</p>
-    <p>Gosto de entender como as coisas funcionam, desmontá-las e encontrar novas formas de construí-las.</p>
-    <p>Entre design, estratégia, audiovisual e tecnologia, meu trabalho acontece onde essas áreas se encontram.</p>
-    <div class="mono" style="color:#666;margin-top:50px">CURRENTLY / DESIGNING — FILMING — BUILDING — LEARNING</div>
-  </div>
-</section>
+
 
 <section class="contact" id="contact">
   <div><div class="kicker mono">/ 006 — CONTATO</div><h2 class="reveal">VAMOS<br>FAZER ALGO<br><span>QUE MEREÇA</span><br>SER VISTO.</h2></div>
@@ -200,6 +243,27 @@ document.querySelectorAll('.magnetic').forEach(btn=>{
   });
   btn.addEventListener('mouseleave',()=>btn.style.transform='');
 });
+
+const projects=document.querySelector('.projects');
+const carouselButtons=document.querySelectorAll('[data-carousel]');
+const carouselStatus=document.querySelector('.carousel-status');
+const projectItems=[...projects.querySelectorAll('.project')];
+const updateCarouselState=()=>{
+  const index=Math.round(projects.scrollLeft/(projectItems[0].getBoundingClientRect().width+16));
+  const current=Math.min(Math.max(index,0),projectItems.length-1);
+  carouselStatus.textContent=`${String(current+1).padStart(2,'0')} / ${String(projectItems.length).padStart(2,'0')}`;
+  carouselButtons.forEach(button=>button.disabled=(button.dataset.carousel==='prev'&&current===0)||(button.dataset.carousel==='next'&&current===projectItems.length-1));
+};
+const moveCarousel=direction=>{
+  const project=projectItems[0];
+  if(!project)return;
+  const distance=project.getBoundingClientRect().width+16;
+  projects.scrollBy({left:direction==='next'?distance:-distance,behavior:'smooth'});
+};
+carouselButtons.forEach(button=>button.addEventListener('click',()=>moveCarousel(button.dataset.carousel)));
+projects.addEventListener('scroll',updateCarouselState,{passive:true});
+addEventListener('resize',updateCarouselState);
+updateCarouselState();
 </script>
 </body>
 </html>
